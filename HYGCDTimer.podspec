@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HYGCDTimer'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'ObjC GCD Timer HYGCDTimer.'
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Carrot/HYGCDTimer'
+  s.homepage         = 'https://github.com/116iosZS/HYGCDTimer'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Carrot' => 'xuel.hu@qq.com' }
