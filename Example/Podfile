@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'HYGCDTimer_Example' do
+  pod 'HYGCDTimer', :path => '../'
+
+  target 'HYGCDTimer_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  end
+end
